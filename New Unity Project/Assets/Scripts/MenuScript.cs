@@ -1,21 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class LampONOFF : MonoBehaviour
+public class MenuScript : MonoBehaviour
 {
-    [SerializeField] GameObject Cube;
-
-
     // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    //Loads Game Level
+    public void StartGame()
     {
-        Debug.Log("ww");
+        SceneManager.LoadScene("Game");
+    }
+
+
+    //Quits Game
+    public void GameQuit(){
+        Application.Quit();
     }
 
     // Update is called once per frame
