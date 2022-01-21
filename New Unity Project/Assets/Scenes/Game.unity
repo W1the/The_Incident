@@ -314,6 +314,23 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8040745131417803397, guid: d7b6517595e3de34b92285b191fe8973, type: 3}
   m_PrefabInstance: {fileID: 1551281041}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1464582960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464582959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a7e51d33b5b63428876ba41bdc7019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FPSCam: {fileID: 0}
+  WallRunTurnAmount: 10
+  JumpOffUpwardsPush: 100
+  JumpOffUpwardsPushMultiplier: 1000
+  rb: {fileID: 0}
 --- !u!65 &1464582964
 BoxCollider:
   m_ObjectHideFlags: 0
